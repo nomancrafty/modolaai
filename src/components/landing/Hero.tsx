@@ -25,7 +25,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card border border-border shadow-sm mb-8 animate-fade-in">
-            <span className="text-sm font-medium text-muted-foreground">Medical, Dental & Law Office AI Solutions</span>
+            <span className="text-sm font-medium text-muted-foreground">Medical Office | Dental Office | Law Office | AI</span>
           </div>
 
           {/* Main Heading */}
@@ -36,60 +36,46 @@ const Hero = () => {
             Get More Patients & Clients
           </h1>
 
-          {/* Subtitle */}
-          <p
-            className="text-2xl md:text-3xl font-semibold text-gradient mb-6 animate-fade-in-up"
+          {/* Subtitle - same font style as heading */}
+          <h2
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-gradient mb-6 animate-fade-in-up"
             style={{ animationDelay: "0.15s" }}
           >
             Operate Your Office More Effectively With Less Staff
-          </p>
+          </h2>
 
           {/* Subheading */}
           <p
-            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-4 animate-fade-in-up"
+            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in-up"
             style={{ animationDelay: "0.2s" }}
           >
-            Get faster clients with modern marketing powered by AI follow-ups.
-          </p>
-
-          <p
-            className="text-md text-muted-foreground max-w-2xl mx-auto mb-4 animate-fade-in-up"
-            style={{ animationDelay: "0.25s" }}
-          >
-            We don't just run ads. We make sure every lead is answered, booked, and followed up automatically.
-          </p>
-
-          <p
-            className="text-md text-foreground font-medium max-w-2xl mx-auto mb-10 animate-fade-in-up"
-            style={{ animationDelay: "0.3s" }}
-          >
-            24/7 AI receptionist + appointment booking + lead nurturing system for clinics and law firms.
+            Instant engagement with prospects. We make sure every appointment booking is handled automatically.
             Never miss a call. Never forget a follow-up. Never lose a patient or client to a faster competitor.
           </p>
 
           {/* CTAs */}
           <div
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-fade-in-up"
-            style={{ animationDelay: "0.35s" }}
+            style={{ animationDelay: "0.25s" }}
           >
             <Button
               size="lg"
               onClick={() => scrollToSection("cta")}
               className="gradient-primary text-primary-foreground shadow-soft hover:opacity-90 transition-all text-lg px-8 py-6 h-auto"
             >
-              Get My Free AI Practice Audit
+              Book Now
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
           </div>
 
           {/* Stats */}
-          <div className="text-center mb-8 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+          <div className="text-center mb-8 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
             <p className="text-sm font-medium text-muted-foreground mb-6">Trusted by Modern Medical, Dental & Law Offices</p>
           </div>
 
           <div
             className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto animate-fade-in-up"
-            style={{ animationDelay: "0.45s" }}
+            style={{ animationDelay: "0.35s" }}
           >
             <div className="text-center p-4 rounded-xl bg-card/50 border border-border">
               <div className="flex items-center justify-center gap-2 mb-2">
