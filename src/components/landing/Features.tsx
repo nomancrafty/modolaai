@@ -23,28 +23,28 @@ const advertisingServices = [
     icon: Tv,
     title: "TV Advertising",
     description: "Local TV campaigns connected to AI call handling and booking.",
-    bullets: ["Local TV campaign setup", "Call tracking & AI answering", "Appointment booking from ads"],
+    bullets: ["Local TV campaign setup", "Appointment booking from ads"],
   },
   {
     icon: TrendingUp,
     title: "Google Ads",
     description: "High-intent search traffic with instant AI response.",
-    bullets: ["High-intent keyword targeting", "Landing page optimization", "AI answering & booking"],
+    bullets: ["High-intent keyword targeting", "Landing page optimization", "Call answering and appointment booking"],
   },
   {
     icon: Instagram,
     title: "Facebook / Instagram Ads",
     description: "Automated lead qualification and follow-ups.",
-    bullets: ["Local audience targeting", "Offer & lead campaigns", "AI follow-ups & message handling"],
+    bullets: ["Local audience targeting", "Offer & lead campaigns", "Automated follow-up & message handling"],
   },
 ];
 
 const marketingServices = [
   {
     icon: Award,
-    title: "Practice Brand",
+    title: "Creative Assets Production",
     description: "Build authority and trust in your local market.",
-    bullets: ["Brand positioning", "Review growth system", "Reputation monitoring"],
+    bullets: ["Brand positioning", "Reputation monitoring"],
   },
   {
     icon: Share2,
@@ -55,8 +55,8 @@ const marketingServices = [
   {
     icon: Search,
     title: "Search Optimization (SEO / AEO / GEO)",
-    description: "Get found first on Google, Maps, and voice search.",
-    bullets: ["Local SEO optimization", "Google Maps ranking", "Voice search readiness", "AI-driven content creation"],
+    description: "Get found first on Google, Maps, and web search.",
+    bullets: ["Local SEO optimization", "Google Maps ranking", "Web search readiness"],
   },
 ];
 
@@ -176,11 +176,11 @@ const Features = () => {
           </div>
         </div>
 
-        {/* OFFICE OPERATIONS */}
+        {/* OFFICE AUTOMATION */}
         <div>
           <div className="text-center mb-12">
             <h3 className="text-2xl md:text-3xl font-bold mb-2">
-              <span className="text-gradient">OFFICE OPERATIONS</span>
+              <span className="text-gradient">OFFICE AUTOMATION</span>
             </h3>
           </div>
 
