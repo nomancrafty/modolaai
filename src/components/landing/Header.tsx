@@ -20,7 +20,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <img src={modoloLogo} alt="MODOLO AI Logo" className="h-24 md:h-26 w-auto" />
+            <img src={modoloLogo} alt="MODOLO AI Logo" className="h-16 md:h-20 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
