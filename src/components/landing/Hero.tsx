@@ -43,7 +43,7 @@ const Hero = () => {
           </h1>
 
           {/* Divider between H1 and H2 */}
-          <div className="w-24 h-px bg-border mx-auto mb-4 animate-fade-in-up" style={{ animationDelay: "0.12s" }} />
+          <div className="w-24 h-px bg-foreground mx-auto mb-4 animate-fade-in-up" style={{ animationDelay: "0.12s" }} />
 
           {/* Subtitle - same font style as heading */}
           <h2

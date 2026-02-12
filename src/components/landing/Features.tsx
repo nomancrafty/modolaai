@@ -102,15 +102,15 @@ const Features = () => {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary mb-6">
-            <span className="text-sm font-medium text-secondary-foreground">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary mb-4">
+            <span className="text-xs font-medium text-muted-foreground">
               MODOLO AI Technology Solutions
             </span>
           </div>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-foreground">
+          <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-foreground">
             MODOLO AI DRIVEN SOLUTIONS
           </h2>
-          <h3 className="text-xl md:text-2xl font-semibold text-muted-foreground mb-6">
+          <h3 className="text-lg md:text-xl font-semibold text-muted-foreground mb-6">
             Demand Generation And AI Office Automations
           </h3>
           <p className="text-lg text-muted-foreground">
