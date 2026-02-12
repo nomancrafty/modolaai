@@ -104,11 +104,11 @@ const Features = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary mb-4">
             <span className="text-xs font-medium text-muted-foreground">
-              MODOLO AI Technology Solutions
+              MODOLO AI DRIVEN SOLUTIONS
             </span>
           </div>
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-foreground">
-            MODOLO AI DRIVEN SOLUTIONS
+            Demand Generation And AI Office Automations
           </h2>
           <h3 className="text-lg md:text-xl font-semibold text-muted-foreground mb-6">
             Demand Generation And AI Office Automations
