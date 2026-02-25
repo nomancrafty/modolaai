@@ -14,7 +14,7 @@ import {
   MessageSquare,
   Info,
   HelpCircle,
-  Users
+  
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -65,11 +65,6 @@ const receptionistServices = [
     icon: Info,
     title: "Provides Information",
     bullets: ["Services & pricing details", "Insurance & coverage guidance", "Office hours & locations", "Treatment / case process explanation"],
-  },
-  {
-    icon: Users,
-    title: "Collects Information",
-    bullets: ["New patient & client details", "Contact information", "Insurance data", "Case / visit reason"],
   },
   {
     icon: HelpCircle,
